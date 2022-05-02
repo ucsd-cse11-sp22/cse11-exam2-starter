@@ -38,6 +38,7 @@ class TextTweet implements Tweet {
     User author;
     String contents;
     String date;
+    int likes;
 
     TextTweet(String contents, User author, int likes, String date) {
         this.author = author;

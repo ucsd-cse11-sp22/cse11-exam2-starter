@@ -13,7 +13,8 @@ class ProvidedArrayTests {
         t.checkExpect(ea.averageWithThreshold(test1,threshold).toDouble(), 2.5);
 	}
 
-    void testFindGoodPairs(Tester t) {
+    // Uncomment when you finished implementing the methods/classes 
+    /*void testFindGoodPairs(Tester t) {
         Pair[] p1 = {new Pair(1,2), new Pair(4,3), new Pair(5,6)};
         Pair[] p2 = {new Pair(2,2), new Pair(4,3), new Pair(7,6)};
 
@@ -46,10 +47,11 @@ class ProvidedArrayTests {
         Pair[] result_p1_p2 = ea.mergePairs(p1, p2);
 
         t.checkExpect(result_p1_p2, expect_p1_p2);
-    }    
+    }  */  
 }
 
-class ProvidedTweetTests {
+// Uncomment when you finished implementing the methods/classes
+/*class ProvidedTweetTests {
     User u1 = new User("greg", "Greg", 12);
     User u2 = new User("greg2", "Greg2", 12);
 
@@ -63,4 +65,4 @@ class ProvidedTweetTests {
     void testLongestUsernameOnThread(Tester t) {
         t.checkExpect(t2.longestUsernameOnThread(), u2);
     }
-}
+}*/

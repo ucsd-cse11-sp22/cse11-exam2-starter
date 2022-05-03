@@ -55,8 +55,8 @@ class ProvidedArrayTests {
     User u1 = new User("greg", "Greg", 12);
     User u2 = new User("greg2", "Greg2", 12);
 
-    Tweet t1 = new TextTweet("We're already halfway through with the quarter", u1, 12, "05-28-2022");
-    Tweet t2 = new ReplyTweet("Yeah, can you believe it. It still feel like the beginning of the quarter", u2, 13, "04-28-2021", t1);
+    Tweet t1 = new TextTweet("We're already halfway through with the quarter", u1, 12, "05-2022");
+    Tweet t2 = new ReplyTweet("Yeah, can you believe it. It still feel like the beginning of the quarter", u2, 13, "04-2021", t1);
 
     void testLatestTweetOnThread(Tester t) {
         t.checkExpect(t2.latestTweetOnThread(), t1);
